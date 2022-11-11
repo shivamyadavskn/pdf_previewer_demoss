@@ -5,7 +5,7 @@ class PdfDoc extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.black12,
+      color: Colors.black,
       child:Text("hello"),
     );
   }
