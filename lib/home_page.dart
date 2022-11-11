@@ -9,9 +9,10 @@ class HomePage extends StatelessWidget {
         title: const Text('Github/PDFPreview'),
         centerTitle: true,
       ),
-      body: const Center(
-        child: Text('Center Tile'),
-      ),
+      body: Container(
+        color: Colors.redAccent,
+        child: const Text("Shivam Yadav"),
+      )
     );
   }
 }
